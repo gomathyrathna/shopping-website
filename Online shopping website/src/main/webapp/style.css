@@ -1,0 +1,240 @@
+
+/* Style all input fields */
+input {
+    width: 100%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 16px;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: black;
+    color: white;
+  }
+  
+  
+  /* Style the container for inputs */
+  .container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 200px;
+    text-align: left;
+  }
+  .container h1{
+    text-align: center;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+} 
+
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    color: black;
+}
+.register-btn{
+  background-color: grey;
+  border: none;
+  padding: 10px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.col {
+	flex-basis: 50%;
+	min-width: 300px;
+}
+
+.col img {
+	max-width: 100%;
+	padding: 50px 0;
+}
+
+.col h1 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.catagories {
+	margin: 70px;
+}
+
+.col-c {
+	flex-basis: 10%;
+	min-width: 200px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.col-c img {
+	width: 80%;
+}
+
+.small-container {
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.box {
+	margin-top: 50px;
+	margin-left: 20px;
+	margin-right: 50px;
+	display: inline-block;
+	flex: 1 1 30rem;
+	border-radius: 0.5rem;
+	position: relative;
+}
+
+.image {
+	position: relative;
+	text-align: center;
+	padding-top: 2rem;
+	overflow: hidden;
+}
+
+.image .icons {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+}
+
+.pop-products {
+	gap: 1.5rem;
+	justify-content: center;
+}
+
+.cart-btn {
+	background-color: grey;
+	border: none;
+	padding: 12px 74px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+#message {
+    display:none;
+    left: 38%;
+    color: #000;
+    position: absolute;
+    padding: 10px;
+    right: 0px;
+    
+  }
+  
+  #message p {
+    padding: 7px 35px;
+    font-size: 10px;
+  }
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "\2714";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "\2716";
+  }
+  .whyregister{
+  text-align: center;
+  }
+  .whysignlogin{
+  text-align: center;
+  }
+  .product{
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom:50px;
+  display: inline-block;
+  flex:1 1 30rem;
+  box-shadow: 1 .5rem 1.5rem rgba(0, 0, 0, .1);
+  border-radius: 0.5rem;
+  border: 1rem solid rgba(0, 0, 0, .1);
+  position: relative;
+}
+.productlist{
+  
+  gap: 1.5rem;
+  justify-content: center;
+}
+.productDetails{
+margin-top: 80px;
+
+}
+.productDetails .col-2 img{
+padding: 0;
+}
+.productDetails .col-2{
+padding: 20px;
+}
+.productDetails h4{
+margin: 20px 0;
+font-size: 22px;
+font-weight: bold;
+}
+.productDetails input{
+width: 50px;
+height: 40px;
+padding-left: 10px;
+font-size: 20px;
+margin-right: 10px;
+border: 1px solid #000000;
+}
+.small-img-row1{
+display : flex;
+justify-content: space-between;
+}
+.small-img-col{
+flex-basis: 24%;
+cursor:pointer;
+}
+
